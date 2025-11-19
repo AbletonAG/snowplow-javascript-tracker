@@ -16,12 +16,12 @@ export const clientHints = false;
 export const mediaTracking = false;
 export const optimizelyX = false;
 export const youtubeTracking = false;
-export const snowplowMedia = false;
+export const snowplowMedia = true;
 export const vimeoTracking = false;
 export const privacySandbox = false;
 export const eventSpecifications = false;
 export const geolocation = false;
-export const timezone = false;
+export const timezone = true;
 export const elementTracking = false;
 
 /* Deprecated */
