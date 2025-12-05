@@ -13,7 +13,7 @@ export const webVitals = true;
 
 /* By default excluded plugins in sp.js */
 export const clientHints = false;
-export const mediaTracking = false;
+export const mediaTracking = true;
 export const optimizelyX = false;
 export const youtubeTracking = false;
 export const snowplowMedia = true;
@@ -22,8 +22,11 @@ export const privacySandbox = false;
 export const eventSpecifications = false;
 export const geolocation = false;
 export const timezone = true;
-export const elementTracking = false;
+export const elementTracking = true;
 
 /* Deprecated */
 export const enhancedEcommerce = false;
 export const performanceTiming = false;
+
+/* additional plugins */
+export const screenTracking = true;
